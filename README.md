@@ -402,6 +402,29 @@ This Siamese architecture is particularly effective for tasks such as face verif
 
 ![Architecture.png](./screenshots/Architecture.png)
 
+## ✅ Practical Application
+
+To demonstrate a proof of concept, the model was trained on the [Labelled Faces in the Wild (LFW) Dataset](https://www.kaggle.com/datasets/jessicali9530/lfw-dataset).
+<br>
+The training focused on facial recognition for identification, specifically using images of Brad Pitt as the target data.
+<br>
+Applying this to a stream of images, such as a live video feed, the result would be an effective facial recognition system.
+<br>
+However, the model's application is not limited to this task, it can be adapted to a wide range of problems.
+
+### Results
+- Accuracy: 99.95%
+- Loss: 0.05%
+- Epochs: 50
+
+### Visualize
+
+| Valid Input | Valid Output |
+|:-----------:|:------------:|
+| ![valid_input.png](./screenshots/valid_input.png) | ![valid_output.png](./screenshots/valid_output.png) |
+| <b>Invalid Input</b> | <b>Invalid Output</b> |
+| ![invalid_input.png](./screenshots/invalid_input.jpeg) | ![invalid_output.png](./screenshots/invalid_output.png) |
+
 ## 💻 Usage
 
 ### Dependencies
@@ -476,29 +499,6 @@ data/
 	├── image5.png
 	└── image6.png
 ```
-
-## ✅ Practical Application
-
-To demonstrate a proof of concept, the model was trained on the [Labelled Faces in the Wild (LFW) Dataset](https://www.kaggle.com/datasets/jessicali9530/lfw-dataset).
-<br>
-The training focused on facial recognition for identification, specifically using images of Brad Pitt as the target data.
-<br>
-Applying this to a stream of images, such as a live video feed, the result would be an effective facial recognition system.
-<br>
-However, the model's application is not limited to this task, it can be adapted to a wide range of problems.
-
-### Results
-- Accuracy: 99.95%
-- Loss: 0.05%
-- Epochs: 50
-
-### Visualize
-
-| Valid Input | Valid Output |
-|:-----------:|:------------:|
-| ![valid_input.png](./screenshots/valid_input.png) | ![valid_output.png](./screenshots/valid_output.png) |
-| <b>Invalid Input</b> | <b>Invalid Output</b> |
-| ![invalid_input.png](./screenshots/invalid_input.jpeg) | ![invalid_output.png](./screenshots/invalid_output.png) |
 
 ## 📃 License
 This project uses the `GNU GENERAL PUBLIC LICENSE v3.0` license

@@ -59,8 +59,6 @@ class Model:
 
 		if self._compiled_model_path is not None:
 			self._load_compiled_model()
-		else:
-			Model._set_gpu_growth()
 
 		self._model: Optional[_Model] = None
 
