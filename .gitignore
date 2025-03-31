@@ -1,0 +1,4 @@
+# Exclude data
+data/anchor/*
+data/negative/*
+data/positive/*
